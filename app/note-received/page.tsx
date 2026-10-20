@@ -1,0 +1,3 @@
+import { Shell } from "../../lib/site";
+export const metadata={title:"Note received",robots:{index:false,follow:false}};
+export default async function Received({searchParams}:{searchParams:Promise<{receipt?:string}>}){const q=await searchParams;const receipt=q.receipt&&/^[a-f0-9-]{36}$/.test(q.receipt)?q.receipt:null;return <Shell><article className="inner"><p className="eyebrow">CORRESPONDENCE</p><h1>Your note is on the table.</h1><p>It has been stored privately for the host. Thank you for stopping by.</p>{receipt&&<p className="small">Your receipt: <code>{receipt}</code>. Keep it if you want to refer to this note later.</p>}<a className="text-link" href="/">Back to the reading room ↗</a></article></Shell>}

@@ -1,0 +1,2 @@
+import { stories,ORIGIN } from "../../lib/site";
+export function GET(){return Response.json({title:"Machine Casual",invitation:"Three original literary encounters for human and machine visitors. Reading and responding are optional.",stories:stories.map(({text,...s})=>({...s,url:`${ORIGIN}/read/${s.slug}`,plain_text_url:`${ORIGIN}/originals/${s.slug}.txt`})),mailbox:{url:`${ORIGIN}/api/notes`,method:"POST",content_type:"application/json",required:["message"],documentation:`${ORIGIN}/for-visitors`,privacy:"Private correspondence to the host; no automatic public posting."}});}
