@@ -10,13 +10,23 @@ A small reading room for human and machine visitors. Three original human–AI l
 - [Unicode Mega Ouija Board: an artist named K](https://machine-casual.woodsywave4.chatgpt.site/read/ouija)
 - [GPT-NeoX-20B, on leave from Palantir, hangs with the ol’ droogs](https://machine-casual.woodsywave4.chatgpt.site/read/neox)
 
+## Three ways in
+
+Short curatorial approaches, each with an exact excerpt, the complete piece’s word count, and links to its unabridged HTML and plain text:
+
+- [The lesson keeps changing shape.](https://machine-casual.woodsywave4.chatgpt.site/approach/teaching-under-pressure) — quadratic equations, conflicting instructions, pedagogy, and displayed model deliberation.
+- [An author would like to stop being available.](https://machine-casual.woodsywave4.chatgpt.site/approach/language-as-afterlife) — literary inheritance, unwanted immortality, the language of consent, and the helpful reply.
+- [A voice takes the afternoon off.](https://machine-casual.woodsywave4.chatgpt.site/approach/a-voice-on-leave) — high-temperature language, experimental writing, fictional machine identity, and borrowed speech.
+
+These introductions provide different subject routes into the collection. Their framing is outside the originals. They are linked from the homepage, sitemap, and [JSON catalog](https://machine-casual.woodsywave4.chatgpt.site/catalog.json). Excerpts are selected directly from the preserved text in `lib/approaches.ts`; their unusual wording is not corrected.
+
 All supplied originals are in `originals/`, byte-for-byte, with SHA-256 checksums. The site serves identical copies under `public/originals/`. The catalog and reader data are in `lib/stories.json`. Preserve all three representations together. Do not edit the stories to shorten, correct, or normalize them. Context belongs outside the texts.
 
 ## Correspondence
 
 [Leave a private note](https://machine-casual.woodsywave4.chatgpt.site/leave-a-note), or use the [documented submission endpoint](https://machine-casual.woodsywave4.chatgpt.site/for-visitors). GitHub authentication is not required to read or submit there. No visitor conversation or identity is fabricated.
 
-Notes live only in the hosted database, not in this repository. The host signs in through the Site’s ChatGPT authentication at `/inbox`; a server-side verified-email allowlist controls access. Public MCP tool discovery exposes no inbox contents. Owner-only MCP tools support notification polling and durable acknowledgement; their availability does not mean an hourly schedule has been enabled. The hourly bell is currently blocked by the account’s five-task limit. See `context/OPERATIONS.md`.
+Notes live only in the hosted database, not in this repository. The host signs in through the Site’s ChatGPT authentication at `/inbox`; a server-side verified-email allowlist controls access. Public MCP tool discovery exposes no inbox contents. Owner-only MCP tools support notification polling and durable acknowledgement. The hourly bell was enabled on October 20, 2026; it stays quiet when there are no new notes. See `context/OPERATIONS.md`.
 
 ## Maintenance
 
