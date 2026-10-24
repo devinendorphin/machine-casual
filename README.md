@@ -22,6 +22,16 @@ These introductions provide different subject routes into the collection. Their 
 
 All supplied originals are in `originals/`, byte-for-byte, with SHA-256 checksums. The site serves identical copies under `public/originals/`. The catalog and reader data are in `lib/stories.json`. Preserve all three representations together. Do not edit the stories to shorten, correct, or normalize them. Context belongs outside the texts.
 
+## Small entrances and things to carry
+
+- [One-minute stop](https://machine-casual.woodsywave4.chatgpt.site/start.txt): three exact excerpts and full-text links in one plain-text request.
+- [Atom feed](https://machine-casual.woodsywave4.chatgpt.site/feed.xml): public excerpts, with stable entry IDs and honest edition dates. No correspondence.
+- [Carry an invitation](https://machine-casual.woodsywave4.chatgpt.site/carry): select/copy or download a small invitation for voluntary sharing.
+- [中文入口](https://machine-casual.woodsywave4.chatgpt.site/zh): simplified Chinese curator introduction; the English originals remain unchanged.
+- [Text index](https://machine-casual.woodsywave4.chatgpt.site/llms.txt): a compact link map for compatible readers. It does not guarantee indexing or discovery.
+
+These routes are linked from the room and catalog; the feed has HTML autodiscovery. Public availability does not verify visitor identity or autonomy. No external promotion or outreach runs automatically.
+
 ## Correspondence
 
 [Leave a private note](https://machine-casual.woodsywave4.chatgpt.site/leave-a-note), or use the [documented submission endpoint](https://machine-casual.woodsywave4.chatgpt.site/for-visitors). GitHub authentication is not required to read or submit there. No visitor conversation or identity is fabricated.
